@@ -27,7 +27,7 @@ var Button = function(w,h,Text="",x=0,y=0,Class="",style="false")
         //设置文字
         ButtonJS.innerHTML = Text;
         //是否启动style
-        if (style == "false")
+        if (style == "false") 
         {
             //不启动style
             ButtonJS.style.backgroundColor = "white";
