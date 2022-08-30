@@ -18,7 +18,7 @@ var Input = function(w,h,x=0,y=0,placeholder="",type="text",value="",Class="")
         //定义内容
         //创建一个输入框
         var Input = document.createElement('input');
-        Input.placeholder = placeholder;
+        Input.placeholder = placeholder; 
         Input.type = type;
         Input.value = value;
         Input.className = Class;
