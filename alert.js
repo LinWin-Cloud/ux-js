@@ -10,7 +10,7 @@ function alert(Text="")
      * Text: You want to show text
      */
     //make a new object
-    var alertUI = document.createElement("div");
+    var alertUI = document.createElement("div"); 
     //get window
     var w = window.innerWidth;
     var h = window.innerHeight;
