@@ -24,7 +24,7 @@ var Panel = function(w,h,x=0,y=0,Class="",style="false")
             Panel.style.height = h + "px"; //设置div元素的高度
             Panel.style.left = x + "px"; //设置div元素的left值
             Panel.style.top = y + "px"; //设置div元素的top值
-            //使用默认的class
+            //使用默认的class 
             //判断是否启用style
             if(style == "false")
             {
