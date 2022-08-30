@@ -43,7 +43,7 @@ function UX_Top(Title,height=50,FontColor="black",BGColor="white")
     back.style.height = height + 'px';
     back.style.border = "none";
     back.style.backgroundColor = BGColor;
-    back.style.color = FontColor;
+    back.style.color = FontColor; 
     back.innerHTML = "<-";
     back.style.position = "absolute";
     back.style.top = "0px";
