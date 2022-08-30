@@ -11,7 +11,7 @@ var Lable = function(w,h,Text,x=0,y=0,Class="")
      * y: 设置y上偏移量
      * h: 高
      * w: 宽
-     * Class: 自定义的样式类名称
+     * Class: 自定义的样式类名称 
      */
     var LableJS = document.createElement('p');
     //设置文字
