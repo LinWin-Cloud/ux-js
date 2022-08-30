@@ -5,7 +5,7 @@
 var Link = function(Size,href="",text="",x=0,y=0,w="auto",h="auto",Class="")
 {
     /**
-     * 参数说明
+     * 参数说明 
      * w: 宽度
      * h: 高度
      * x: x偏离量
