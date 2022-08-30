@@ -25,16 +25,25 @@
             /* 下面是ux-js运行的实例 */
 
             //新建一个按钮对象
-            var button = new Button(100,30,"文字",100,100); //这里是部分参数，还可以根据实际确定风格和样式
+            //这里是部分参数，还可以根据实际确定风格和样式
+
+            var button = new Button(100,30,"文字",200,100); 
 
             //在body中放置这个对象
+            /* 同理来说 appendChild也可以用在其他的元素上使用 */
+
             document.body.appendChild(button);
+
+            /* 添加标题栏 */
+            /* 代码的参数: UX_Top(Title,height=50,FontColor="black",BGColor="white") */
+
+            UX_Top("优信小程序");
 
         }, 200 );
     </script>
 
 ### 使用帮助
-参考注释，注释采用中文，写的很丰富。
+参考每个文件的注释，注释大部分采用中文，写的很丰富。
 
 ### 开发团队/组织
 优信团队、萤火科技、联沃云团队
