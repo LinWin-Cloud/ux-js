@@ -46,7 +46,7 @@ var TableItem_Y = function TableItem_X(Text,Border="1",Class="false")
     var TableItem = document.createElement("tr");
     TableItem.innerHTML = Text;
     if (Class == "false")
-    {
+    { 
         TableItem.style.border = Border+"px solid black";
         return TableItem;
     }
