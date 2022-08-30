@@ -1,0 +1,11 @@
+{
+  "name": "ux-js",
+  "version": "1.0.0",
+  "description": "JavaScript Lib for Web",
+  "main": "uxjs.min.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "LinWinCloud",
+  "license": "ISC"
+}
