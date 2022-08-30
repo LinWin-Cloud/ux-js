@@ -3,7 +3,7 @@
  * 用于显示图像
  */
 var ImgView = function(w,h,Image,x=0,y=0,Class="",style="false")
-{
+{ 
     /**
      * 参数说明
      * x: 设置X左偏移量
