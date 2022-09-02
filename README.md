@@ -19,10 +19,8 @@
 ### 运行ux-js库
 
     <script>
-        setTimeout(function()
-        {
-            /* 使用延时可以等待ux-js加载完成，如果没有这个操作可能报错 */
-            /* 下面是ux-js运行的实例 */
+        window.onload = function(){
+            /* 使用window.onload可以等待所有的JavaScript加载完成 */
 
             //新建一个按钮对象
             //这里是部分参数，还可以根据实际确定风格和样式
@@ -39,7 +37,7 @@
 
             UX_Top("优信小程序");
 
-        }, 200 );
+        }
     </script>
 
 ### 使用帮助
