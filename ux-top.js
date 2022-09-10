@@ -48,16 +48,25 @@ function UX_Top(Title,height=50,FontColor="black",BGColor="white")
     back.style.position = "absolute";
     back.style.top = "0px";
     back.style.left = "0px";
+    back.style.fontSize="20px"
     back.style.outline = "none";
+    back.style.borderRadius = "20px";
     Top.appendChild(back);
     //when button click
     back.onmousedown = function()
     {
         back.style.backgroundColor = "rgb(50, 255, 118)";
+        back.style.boxShadow = "0px 0px 20px black";
+        back.style.opacity = "0.5";
+        back.style.fontSize="30px";
     }
     back.onmouseup = function()
     {
-        back.style.backgroundColor = BGColor;
+        setTimeout(function(){
+            back.style.backgroundColor = BGColor;
+            back.style.boxShadow = "0px 0px 0px black"
+            back.style.fontSize="20px";
+        } , 50)
     }
     back.onclick = function()
     {
