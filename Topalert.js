@@ -7,7 +7,7 @@ function topalert(Text,Time=1000)
     //Text: 用于显示要显示的消息
     //Time: 显示的时间
     var topalert = document.createElement("div");
-    topalert.style.backgroundColor = "white";
+    topalert.style.backgroundColor = "rgb(255,255,205,0.9)";
     topalert.style.boxShadow = "0px 0px 10px black";
     topalert.style.borderRadius = "10px";
     topalert.style.position = "absolute";

@@ -33,7 +33,7 @@ function UX_Top(Title,height=50,FontColor="black",BGColor="white")
     var TitleText = document.createElement("p");
     Top.appendChild(TitleText);
     TitleText.style.position = "absolute";
-    TitleText.style.left = "50px";
+    TitleText.style.left = height + 'px'
     TitleText.style.top = "";
     TitleText.innerHTML = Title;
 

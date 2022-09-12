@@ -32,6 +32,7 @@ function alert(Text="")
     gray.style.backgroundColor = "rgb(0,0,0,0.5)";
     //set text
     var p = document.createElement("p");
+    p.style.width = "270px"
     p.style.left = "20px";
     p.style.top  = "20px";
     p.style.position = "absolute";
